@@ -1,0 +1,131 @@
+#include <iostream>
+using namespace std;
+class Node{
+public:
+    char data;
+    Node* next;
+};
+int main() {
+Node* M1 = new Node();
+Node* M2 = new Node();
+Node* M3 = new Node();
+Node* M4 = new Node();
+Node* M5 = new Node();
+
+Node* O1 = new Node();
+Node* O2 = new Node();
+Node* O3 = new Node();
+Node* O4 = new Node();
+
+
+Node* H1 = new Node();
+Node* H2 = new Node();
+Node* H3 = new Node();
+Node* H4 = new Node();
+Node* H5 = new Node();
+Node* H6 = new Node();
+
+Node* A1 = new Node();
+Node* A2 = new Node();
+Node* A3 = new Node();
+Node* A4 = new Node();
+Node* A5 = new Node();
+
+Node* M6 = new Node();
+Node* M7 = new Node();
+Node* M8 = new Node();
+Node* M9 = new Node();
+Node* M10 = new Node();
+
+Node* E1 = new Node();
+Node* E2 = new Node();
+Node* E3 = new Node();
+Node* E4 = new Node();
+Node* E5 = new Node();
+Node* E6 = new Node();
+
+Node* D1 = new Node();
+Node* D2 = new Node();
+Node* D3 = new Node();
+Node* D4 = new Node();
+Node* D5 = new Node();
+
+M1->data = 'M';
+M1->next = M2;
+M2->data = 'M';
+M2->next = M3;
+M3->data = 'M';
+M3->next = M4;
+M4->data = 'M';
+M4->next = M5;
+M5->data = 'M';
+M5->next = nullptr;
+
+O1->data = 'O';
+O1->next = O2;
+O2->data = 'O';
+O2->next = O3;
+O3->data = 'O';
+O3->next = O4;
+O4->data = 'O';
+O4->next = O1;
+
+H1->data = 'H';
+H1->next = H2;
+H2->data = 'H';
+H2->next = H3;
+H3->data = 'H';
+H3->next = nullptr;
+H4->data = 'H';
+H4->next = H5;
+H5->data = 'H';
+H5->next = H6;
+H6->data = 'H';
+H6->next = nullptr;
+
+A1->data = 'A';
+A1->next = A2;
+A2->data = 'A';
+A2->next = A3;
+A3->data = 'A';
+A3->next = A4;
+A4->data = 'A';
+A4->next = A5;
+A5->data = 'A';
+A5->next = nullptr;
+
+M6->data = 'M';
+M6->next = M7;
+M7->data = 'M';
+M7->next = M8;
+M8->data = 'M';
+M8->next = M9;
+M9->data = 'M';
+M9->next = M10;
+M10->data = 'M';
+M10->next = nullptr;
+
+E1->data = 'E';
+E1->next = E2;
+E2->data = 'E';
+E2->next = E3;
+E3->data = 'E';
+E3->next = E4;
+E4->data = 'E';
+E4->next = E5;
+E5->data = 'E';
+E5->next = nullptr;
+E6->data = 'E';
+E6->next = E3;
+
+D1->data = 'D';
+D1->next = D2;
+D2->data = 'D';
+D2->next = D3;
+D3->data = 'D';
+D3->next = D4;
+D4->data = 'D';
+D4->next = D5;
+D5->data = 'D';
+D5->next = D1;
+}
